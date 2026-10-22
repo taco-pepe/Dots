@@ -27,7 +27,7 @@ local wallpaper = os.getenv("HOME") .. "/.taco/wallpapers/cat.png"
 -------------------
 hl.on("hyprland.start", function()
 	-- Start Shell Bar.
-	hl.exec_cmd("qs -c $HOME/.taco/bar/shell.qml")
+	hl.exec_cmd("qs -p $HOME/.taco/bar/shell.qml")
 
 	-- hl.exec_cmd("espanso service start --unmanaged") espnaso. uncheck for systems that have espanso as a systemd or openrc service
 
