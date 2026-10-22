@@ -191,6 +191,9 @@ hl.bind(
 -- SUPER + PRINT: select region and copy to clipboard
 hl.bind(mainMod .. " + PRINT", hl.dsp.exec_cmd('grim -g "$(slurp)" - | wl-copy'))
 
+-- calculator :D
+hl.bind(mainMod .. " + SHIFT + X", hl.dsp.exec_cmd('qs -p "$HOME/.taco/bar/calculator.qml"'))
+
 -- SUPER + SHIFT + PRINT: full-screen screenshot
 hl.bind(
 	mainMod .. " + SHIFT + PRINT",
