@@ -1,0 +1,10 @@
+show=drun
+width=600
+height=400
+location=center
+prompt=Search apps... :3
+allow_images=true
+insensitive=true
+no_actions=true
+term=foot
+
