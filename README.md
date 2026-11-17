@@ -5,8 +5,16 @@ A simple one.
 ## install 
 Run The command
 
+For Fedora:
+
 ```
 wget https://github.com/taco-pepe/Dots/raw/refs/heads/main/install.sh && chmod +x install.sh && ./install.sh
+```
+
+For Arch / CachyOS:
+
+```
+wget https://github.com/taco-pepe/Dots/raw/refs/heads/main/install-arch.sh && chmod +x install-arch.sh && ./install-arch.sh
 ```
 
 or for inspecting sources
